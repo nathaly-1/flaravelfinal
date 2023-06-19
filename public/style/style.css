@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #2f2f2f;
+}
+
+.conten_prin {
+    margin: 20px;
+    width: 95px;
+}
+
+.carousel-inner>.item>img {
+    width: 640px;
+    height: 360px;
+}
+
+#ribbon {
+    background-color: rgb(0, 0, 0);
+    background-image: repeating-linear-gradient( 45deg, transparent, transparent 25px, rgb(145, 230, 124) 25px, rgb(13, 176, 35) 40px);
+}
+
+#ribbon::after {
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50px;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: -48px;
+}
+
+#brithday {
+    background-color: black;
+    position: relative;
+    margin-top: -20px;
+    z-index: 10;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.card-border {
+    width: 400px;
+    height: 200px;
+    border: solid 4px chartreuse;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: all ease-in-out 0.2s;
+}
+
+.card-border:hover {
+    transform: scale(1.05);
+}
+
+#componentes {
+    background: #4a5568;
+}
+#componentesADmi {
+    height: 100vh; /* establece la altura del div como la altura total de la ventana del navegador */
+    display: flex; /* establece el contenedor como un flexbox */
+    justify-content: center; /* alinea los elementos horizontalmente en el centro */
+    align-items: center; /* alinea los elementos verticalmente en el centro */
+}
+
+#imglogo {
+    width: 200px;
+    height: 100px;
+}
+
+.footer {
+    background: url(../img/over.jpg);
+    margin-block: auto;
+}
+
+.content_Micuenta {
+    background: url(../img/fondos-de-pantalla-gaming.png);
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgb(0, 34, 255);
+    transition: 0.3s;
+    background: #b6b6b6;
+}
+
+.card:hover .card-title {
+    color: #007bff;
+}
+
+.card:hover .card-text {
+    color: #050505
+}
+.card-text {
+    margin-top: 10px;
+    color: #d03535
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.carrostylo {
+    display: flex;
+    flex-direction: column;
+}
+
+.carrostylo :nth-child(1) {
+    align-self: self-end;
+}
